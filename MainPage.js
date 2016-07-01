@@ -10,6 +10,8 @@ import {
   Navigator,
   Image,
   ToolbarAndroid,
+  Animated,
+  Easing
 } from 'react-native';
 
 var TopBar = require('./components/TopBar.js');
@@ -56,12 +58,13 @@ var styles = StyleSheet.create({
     addIcon:{
         width: 100,
         height: 100,
-        borderRadius: 100,
+        borderRadius: 10,
         top: -40,
-        justifyContent: 'center'
+        justifyContent: 'center',
+        overflow: 'hidden'
     },
     iconColor2:{
-        backgroundColor: '#a6e22e',
+        backgroundColor: '#89cd01',
     },
     iconColor1:{
         backgroundColor: '#3ea3ed',
@@ -70,10 +73,62 @@ var styles = StyleSheet.create({
         alignSelf: 'center',
         fontSize: 20,
         color: '#fff'
-    }
+    },
+    buttonWave:{
+        borderRadius:40,
+        position: 'absolute',
+        bottom: 0,
+        overflow: 'hidden',
+        opacity: 0.6,
+    },
 });
 
 var MainPage = React.createClass({
+    getInitialState: function() {
+        return {
+            waveMove1: new Animated.Value(0), 
+            waveMove2: new Animated.Value(0),
+            waveMove3: new Animated.Value(0),
+        };
+    },
+    componentDidMount() {
+        this.startAnimation();
+    },
+    startAnimation(){
+        this.state.waveMove1.setValue(0); 
+        this.state.waveMove2.setValue(0);   
+        this.state.waveMove3.setValue(0); 
+        Animated.sequence([
+            Animated.parallel([         
+                Animated.timing(this.state.waveMove1, {
+                    toValue: 5,
+                    duration: 5000    
+                }),
+                Animated.timing(this.state.waveMove2, {   
+                    toValue: -15,
+                    duration: 5000    
+                }),
+                Animated.timing(this.state.waveMove3, {   
+                    toValue: 20,
+                    duration: 5000    
+                }),
+            ]),
+            Animated.parallel([         
+                Animated.timing(this.state.waveMove1, {
+                    toValue: 0,
+                    duration: 5000    
+                }),
+                Animated.timing(this.state.waveMove2, {   
+                    toValue: 0,
+                    duration: 5000    
+                }),
+                Animated.timing(this.state.waveMove3, {   
+                    toValue: 0,
+                    duration: 5000    
+                }),
+            ]),
+        ]).start(()=>this.startAnimation());
+    },
     _addBill(){
         this.props.navigator.push({
             page: 'add'
@@ -106,16 +161,16 @@ var MainPage = React.createClass({
             </View>
             <View style={styles.bottomView}>
                 <View style={[styles.addIcon, styles.iconColor1]}>
-                {/*
-                    <Image source={require('./images/brokenHeart.png')}/>
-                */}
                     <Text style={styles.buttonText}>Normal</Text>
+                    <Animated.Image style={[styles.buttonWave, {bottom: this.state.waveMove1}]} source={require('./images/wave1.png')}/>
+                    <Animated.Image style={[styles.buttonWave, {bottom: this.state.waveMove2}]} source={require('./images/wave2.png')}/>
+                    <Animated.Image style={[styles.buttonWave, {bottom: this.state.waveMove3}]} source={require('./images/wave3.png')}/>
                 </View>
                 <View style={[styles.addIcon, styles.iconColor2]}>
-                {/*
-                    <Image source={require('./images/lips.png')}/>
-                */}
                     <Text style={styles.buttonText}>Speak</Text>
+                    <Animated.Image style={[styles.buttonWave, {bottom: this.state.waveMove1}]} source={require('./images/wave1.png')}/>
+                    <Animated.Image style={[styles.buttonWave, {bottom: this.state.waveMove2}]} source={require('./images/wave2.png')}/>
+                    <Animated.Image style={[styles.buttonWave, {bottom: this.state.waveMove3}]} source={require('./images/wave3.png')}/>
                 </View>
             </View>
         </View>);
