@@ -47,21 +47,7 @@ class AwesomeProject extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-  },
-  buttonText: {
-    fontSize: 17,
-    fontWeight: '500',
-    padding: 15,
-    marginTop: 50,
-    marginLeft: 15,
-  },
-  button: {
-    backgroundColor: 'white',
-    padding: 15,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: '#CDCDCD',
-  },
-
+  }
 });
 
 AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
