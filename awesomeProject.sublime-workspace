@@ -3,15 +3,63 @@
 	{
 		"selected_items":
 		[
+			[
+				"star",
+				"startAnimation"
+			],
+			[
+				"wa",
+				"waveMove1"
+			],
+			[
+				"eA",
+				"Easing"
+			],
+			[
+				"flex",
+				"flexDirection"
+			],
+			[
+				"STY",
+				"styles"
+			],
+			[
+				"styl",
+				"styles"
+			],
+			[
+				"stye",
+				"styles"
+			],
+			[
+				"fl",
+				"flexDirection"
+			],
+			[
+				"sear",
+				"searchBox"
+			],
+			[
+				"sty",
+				"styles"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "AddBill.js",
+			"file": "index.ios.js",
 			"settings":
 			{
-				"buffer_size": 1398,
+				"buffer_size": 1069,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MainPage.js",
+			"settings":
+			{
+				"buffer_size": 5546,
 				"line_ending": "Windows"
 			}
 		},
@@ -21,62 +69,6 @@
 			{
 				"buffer_size": 177,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "ViewBills.js",
-			"settings":
-			{
-				"buffer_size": 1063,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 418,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "MainPage.js",
-			"settings":
-			{
-				"buffer_size": 783,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.android.js",
-			"settings":
-			{
-				"buffer_size": 1487,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Jack Xie/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 1562,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".eslintrc.json",
-			"settings":
-			{
-				"buffer_size": 190,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "awesomeProject.sublime-project",
-			"settings":
-			{
-				"buffer_size": 322,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -130,26 +122,34 @@
 	},
 	"expanded_folders":
 	[
-		"/G/kedgeree/study/react-native/AwesomeProject"
+		"/G/kedgeree/study/react-native/AwesomeProject",
+		"/G/kedgeree/study/react-native/AwesomeProject/pages",
+		"/G/kedgeree/study/react-native/AwesomeProject/schema"
 	],
 	"file_history":
 	[
-		"/G/kedgeree/study/react-native/AwesomeProject/.eslintrc",
+		"/G/kedgeree/study/react-native/AwesomeProject/MainPage.js",
+		"/G/kedgeree/study/react-native/AwesomeProject/awesomeProject.sublime-project",
+		"/G/kedgeree/study/react-native/AwesomeProject/.eslintrc.json",
 		"/C/Users/Jack Xie/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/G/kedgeree/study/react-native/AwesomeProject/index.android.js",
+		"/G/kedgeree/study/react-native/AwesomeProject/components/TopBar.js",
+		"/G/kedgeree/study/react-native/AwesomeProject/variables.js",
+		"/G/kedgeree/study/react-native/AwesomeProject/BillSchema.js",
+		"/G/kedgeree/study/react-native/AwesomeProject/AddBill.js",
+		"/G/kedgeree/study/react-native/AwesomeProject/ViewBills.js",
+		"/G/kedgeree/study/react-native/AwesomeProject/.eslintrc",
 		"/C/Users/Jack Xie/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/C/Users/Jack Xie/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Jack Xie/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/C/Users/Jack Xie/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/C/Users/Jack Xie/AppData/Roaming/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
-		"/G/kedgeree/study/react-native/AwesomeProject/index.android.js",
-		"/G/kedgeree/study/react-native/AwesomeProject/AddBill.js",
-		"/G/kedgeree/study/react-native/AwesomeProject/MainPage.js",
 		"/G/kedgeree/study/react-native/AwesomeProject/index.ios.js",
 		"/G/kedgeree/study/react-native/AwesomeProject/a.jsx"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -163,6 +163,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"style",
+			"fff",
+			"wrapper",
+			"h",
 			"TextInput",
 			"save"
 		],
@@ -182,24 +186,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "AddBill.js",
+					"file": "index.ios.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1398,
+						"buffer_size": 1069,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1398,
-								1398
+								0,
+								0
 							]
 						],
 						"settings":
@@ -209,16 +213,46 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 228.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "BillSchema.js",
+					"file": "MainPage.js",
 					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "BillSchema.js",
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 177,
@@ -240,212 +274,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "ViewBills.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1063,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								725,
-								725
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": ".gitignore",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 418,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								252,
-								252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "MainPage.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								407,
-								407
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "index.android.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1487,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								618
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Users/Jack Xie/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1562,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								95,
-								95
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 513.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": ".eslintrc.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 190,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								49,
-								49
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "awesomeProject.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 322,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								250,
-								250
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -453,11 +282,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 30.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -490,7 +319,7 @@
 	"project": "awesomeProject.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":

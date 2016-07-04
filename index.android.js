@@ -14,9 +14,9 @@ import {
   Navigator,
 } from 'react-native';
 
-var MainPage = require('./MainPage.js');
-var AddBill = require('./AddBill.js');
-var ViewBills = require('./ViewBills.js');
+var MainPage = require('./pages/MainPage.js');
+var AddBill = require('./pages/AddBill.js');
+var ViewBills = require('./pages/ViewBills.js');
 
 
 var RouteMapper = function(route, navigator) {
